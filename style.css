@@ -1,0 +1,111 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav{
+    background-color: rgb(8, 4, 4);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    display: flex;
+    margin: 30px;
+    text-decoration: none;
+    color: blueviolet;
+}
+nav ul li a:hover{
+
+
+    color: brown;
+    text-shadow: rgb(189, 185, 185);
+}
+video{
+    width: 100%;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+}
+#home::before{
+    content: "";
+    background-image: url('https://th.bing.com/th/id/R.862e17828c8bf1fe352653ea2308805b?rik=H5hDsW3S3G%2fYzg&riu=http%3a%2f%2fstatic.businessinsider.com%2fimage%2f548722296bb3f77712c76b02%2fimage.jpg&ehk=G5ssUlkrElbu987wIxkYP3uhqbad6oaHFoIEZqWwWMI%3d&risl=&pid=ImgRaw&r=0');
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    position: absolute;
+    padding: 60px;
+    top: 1000px;
+    left: 5%;
+    color: azure;
+}
+.main h2{
+    color: rgb(107, 66, 66);
+   
+}
+.main h2:hover{
+    text-decoration: coral;
+    color: #c92727;
+    
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    margin: 10px;
+}
+.pic{
+    display: flex;
+}
+.pic p{
+    text-align: center;
+    margin: 30px;
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color: dimgray;
+}
+.pic img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 570px;
+}
+.gallery{
+    margin-left: 80px;
+}
+.gallery img{
+    width: 400px;
+    height: 200px;
+    margin: 20px;
+}
+.gallery img:hover{
+    box-shadow: 4px 5px 6px 7px rgb(153, 111, 57);
+}
+form{
+    width: 600px;
+    margin-left: 570px;
+}
+.input{
+    display: flex;
+    width: 300px;    
+}
+button{
+    padding-left: 40%;
+    
+}
+.address{
+    width: 600px;
+    display: flex;
+    margin-left: 450px;
+}
